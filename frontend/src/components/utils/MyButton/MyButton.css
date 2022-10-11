@@ -1,0 +1,21 @@
+.my-button {
+	padding: 0.3rem 1rem;
+	border-radius: 10px;
+	background: var(--blue);
+	color: var(--white);
+	font-size: 1rem;
+	cursor: pointer;
+	border: 2px solid var(--blue);
+	font-weight: bold;
+	margin-top: 1rem;
+}
+.my-button:hover {
+	transition: 0.5s ease-in-out;
+	color: var(--blue);
+	background-color: var(--white);
+}
+.my-button:active {
+	transform: scale(0.7);
+	opacity: 0.2;
+	transition: all ease 0.2s;
+}
