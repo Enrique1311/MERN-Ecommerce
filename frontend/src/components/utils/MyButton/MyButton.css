@@ -1,9 +1,9 @@
 .my-button {
-	padding: 0.3rem 1rem;
+	padding: 0.5rem 1rem;
 	border-radius: 10px;
 	background: var(--blue);
 	color: var(--white);
-	font-size: 1rem;
+	font-size: 0.8rem;
 	cursor: pointer;
 	border: 2px solid var(--blue);
 	font-weight: bold;
