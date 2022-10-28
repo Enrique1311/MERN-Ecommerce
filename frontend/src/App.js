@@ -1,19 +1,27 @@
+import { useContext } from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import Home from './components/Home';
-import Products from './components/Products';
+import Cart from './components/Cart/Cart';
+import Home from './components/Home/Home';
+import NavBar from './components/NavBar/NavBar';
+import ProductDetails from './components/ProductDetails/ProductDetails';
 
 function App() {
 	return (
 		<BrowserRouter>
-			<div className='App'>
+			<div className='app-container'>
 				<header>
-					<Link to='/'>Ecommerce</Link>
+					<Link to='/'>My Ecommerce</Link>
+					<NavBar />
 				</header>
 				<main>
 					<Routes>
 						<Route
 							path='/product/:slug'
-							element={<Products />}
+							element={<ProductDetails />}
+						/>
+						<Route
+							path='/cart'
+							element={<Cart />}
 						/>
 						<Route
 							path='/'
@@ -21,6 +29,9 @@ function App() {
 						/>
 					</Routes>
 				</main>
+				<footer>
+					<p>Todos los derechos reservados</p>
+				</footer>
 			</div>
 		</BrowserRouter>
 	);

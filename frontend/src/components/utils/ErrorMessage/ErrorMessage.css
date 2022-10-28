@@ -1,0 +1,10 @@
+.error-message {
+	display: flex;
+	justify-content: center;
+	background-color: var(--red);
+	color: var(--white);
+	padding: 2rem 5rem;
+	border-radius: 0.5rem;
+	border: solid 0.2rem var(--red);
+	margin: 3rem;
+}

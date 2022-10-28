@@ -1,27 +1,24 @@
-import samsungS21 from './images/galaxy-s21.png';
-import motoEdgePlus from './images/moto-edge-plus.png';
-import thinkbookYoga from './images/thinkbook-yoga.png';
-import asusVivibook from './images/asus-vivobook.png';
-
 const data = {
 	products: [
 		{
+			_id: '1',
 			name: 'Celular Samsung S21',
 			slug: 'celular-samsung-s21',
 			category: 'Celular',
-			image: samsungS21,
+			image: '/images/galaxy-s21.png',
 			price: 228000,
-			stock: 20,
+			stock: 0,
 			brand: 'Samsung',
 			rating: 4.7,
 			reviews: 15,
 			description: '12GB RAM - Memoria 128GB - etc',
 		},
 		{
+			_id: '2',
 			name: 'Celular Motorola Moto Edge Plus',
 			slug: 'celular-moto-edge-plus',
 			category: 'Celular',
-			image: motoEdgePlus,
+			image: '/images/moto-edge-plus.png',
 			price: 198000,
 			stock: 12,
 			brand: 'Motorola',
@@ -30,10 +27,11 @@ const data = {
 			description: '12GB RAM - Memoria 128GB - etc',
 		},
 		{
+			_id: '3',
 			name: 'Notebook Lenovo ThinkBook 14s Yoga 2da Gen',
 			slug: 'notebook-thinkbook-yoga',
 			category: 'Notebook',
-			image: thinkbookYoga,
+			image: '/images/thinkbook-yoga.png',
 			price: 314000,
 			stock: 6,
 			brand: 'Lenovo',
@@ -43,10 +41,11 @@ const data = {
 				'14" - Intel Core i7 12da gen - 16 GB de Ram - SSD de 512 GB - Win 11 Pro',
 		},
 		{
+			_id: '4',
 			name: 'Notebook Asus Vivobook',
 			slug: 'notebook-asus-vivobook',
 			category: 'Notebook',
-			image: asusVivibook,
+			image: '/images/asus-vivobook.png',
 			price: 344000,
 			stock: 8,
 			brand: 'Asus',

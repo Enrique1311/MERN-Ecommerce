@@ -7,7 +7,7 @@
 	cursor: pointer;
 	border: 2px solid var(--blue);
 	font-weight: bold;
-	margin-top: 1rem;
+	margin-top: 0.3rem;
 }
 .my-button:hover {
 	transition: 0.5s ease-in-out;
